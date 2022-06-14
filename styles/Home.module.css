@@ -3,6 +3,8 @@
 }
 
 .main {
+  position: relative;
+  z-index: 1;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -97,4 +99,27 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.sparkle1,
+.sparkle2 {
+  z-index: 0;
+  position: absolute;
+  background: radial-gradient(circle 250px, white, #c46f00);
+  background-repeat: no-repeat;
+}
+
+.sparkle1 {
+  top: 5%;
+  left: 5%;
+  width: 55%;
+  height: 55%;
+  opacity: 0.25;
+}
+
+.sparkle2 {
+  bottom: 5%;
+  right: 5%;
+  width: 55%;
+  height: 55%;
 }
