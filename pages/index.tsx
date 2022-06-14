@@ -9,20 +9,30 @@ const Home: NextPage = () => {
       <Head>
         <title>The Web3 Ninja | theweb3.ninja</title>
         <meta name="description" content="The Web3 Ninja company website" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192" />
+        <link rel="icon" type="image/png" href="/android-chrome-512x512.png" sizes="512x512" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#B00F0A" />
+        <meta name="theme-color" content="#B00F0A" />
       </Head>
 
       <main className={styles.main}>
         <div>
           <Image src="/android-chrome-192x192.png" alt="android-chrome-192x192.png" width="192" height="192" title="Logo" />
         </div>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://theweb3.ninja">The Web3 Ninja!</a>
         </h1>
 
         <p className={styles.description}>
-          Your one stop agency for your frontend{' '}
-          <code className={styles.code}>web3</code>
+          Your one stop man for your {' '}
+          <code className={styles.code}>Web3</code>{' '}
+          frontend integration.
         </p>
         
         {/*
