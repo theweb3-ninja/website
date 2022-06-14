@@ -18,6 +18,17 @@ const Home: NextPage = () => {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#B00F0A" />
         <meta name="theme-color" content="#B00F0A" />
+
+        <meta property="og:title" content="The Web3 Ninja | theweb3.ninja" />
+        <meta property="og:description" content="Your one stop man for your Web3 frontend integration." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://theweb3.ninja" />
+        <meta property="og:image" content="https://theweb3.ninja/apple-touch-icon.png" />
+
+        <meta name="twitter:title" content="The Web3 Ninja | theweb3.ninja" />
+        <meta name="twitter:description" content="Your one stop man for your Web3 frontend integration." />
+        <meta name="twitter:image" content="https://theweb3.ninja/apple-touch-icon.png" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
       <main className={styles.main}>
