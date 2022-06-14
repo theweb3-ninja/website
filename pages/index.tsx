@@ -46,9 +46,11 @@ const Home: NextPage = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://theweb3.ninja" />
+        <meta property="og:image:height" content="512" />
+        <meta property="og:image:width" content="512" />
         <meta
           property="og:image"
-          content="https://theweb3.ninja/apple-touch-icon.png"
+          content="https://theweb3.ninja/android-chrome-512x512.png"
         />
 
         <meta name="twitter:title" content="The Web3 Ninja | theweb3.ninja" />
@@ -58,7 +60,7 @@ const Home: NextPage = () => {
         />
         <meta
           name="twitter:image"
-          content="https://theweb3.ninja/apple-touch-icon.png"
+          content="https://theweb3.ninja/android-chrome-512x512.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
