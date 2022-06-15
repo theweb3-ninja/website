@@ -59,6 +59,7 @@ const MetaHeader = () => {
           content="https://theweb3.ninja/android-chrome-512x512.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="google-site-verification" content="MTPnmdSrwTSlc4jluvZEaTDHKYchpR0FM8g4PoBYMHE" />
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ec261b44f7804ca1ba9c092912eadee1"}'></script>
       </Head>
   );
