@@ -1,21 +1,23 @@
-.container {
-  padding: 0 2rem;
-}
+@use "../../styles/variables" as *;
 
 .main {
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 600px) {
+    padding: 4rem 0;
+  }
 }
 
 .title a {
-  color: #B00F0A;
+  color: $palette3;
   text-decoration: none;
 }
 
@@ -31,6 +33,13 @@
   font-size: 4rem;
 }
 
+.titleNinja {
+  margin-top: 1rem;
+  display: block;
+  font-family: "AssassinNinja";
+  font-size: 5rem;
+}
+
 .title,
 .description {
   text-align: center;
@@ -40,6 +49,12 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  text-align: center;
+  display: inline;
+
+  span {
+    display: inline;
+  }
 }
 
 .code {
@@ -57,6 +72,11 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 .card {
@@ -94,32 +114,22 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+.calendly {
+  &Button {
+    cursor: pointer;
+    background-color: $palette2;
+    color: #fff;
+    border: 2px solid $palette4;
+    padding: 1rem 3rem;
+    border-radius: 999rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+
+    // @media (max-width: 600px) {
+    //   width: 100%;
+    //   flex-direction: column;
+    // }
   }
-}
-
-.sparkle1,
-.sparkle2 {
-  z-index: 0;
-  position: absolute;
-  background: radial-gradient(circle 250px, white, #c46f00);
-  background-repeat: no-repeat;
-}
-
-.sparkle1 {
-  top: 5%;
-  left: 5%;
-  width: 55%;
-  height: 55%;
-  opacity: 0.25;
-}
-
-.sparkle2 {
-  bottom: 5%;
-  right: 5%;
-  width: 55%;
-  height: 55%;
 }
