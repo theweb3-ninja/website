@@ -4,7 +4,7 @@
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  padding: 2rem 0;
+  padding: 2rem 0 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -31,13 +31,22 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-size: 2.5rem;
+
+  @media (min-width: 600px) {
+    font-size: 4rem;
+  }
 }
 
 .titleNinja {
   margin-top: 1rem;
   display: block;
   font-family: "AssassinNinja";
-  font-size: 5rem;
+  font-size: 3.5rem;
+
+  @media (min-width: 600px) {
+    font-size: 5rem;
+  }
 }
 
 .title,
@@ -46,7 +55,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 3rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
   text-align: center;
@@ -54,6 +63,10 @@
 
   span {
     display: inline;
+  }
+
+  @media (min-width: 600px) {
+    margin: 4rem 0;
   }
 }
 
@@ -119,17 +132,23 @@
     cursor: pointer;
     background-color: $palette2;
     color: #fff;
-    border: 2px solid $palette4;
+    border: 3px solid $palette4;
     padding: 1rem 3rem;
     border-radius: 999rem;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 1.5rem;
-
-    // @media (max-width: 600px) {
-    //   width: 100%;
-    //   flex-direction: column;
-    // }
+    margin: 0 0 2rem 0;
+    transition: 250ms all;
+    
+    &:hover {
+      box-shadow: 0 0 1rem #eee;
+    }
+    
+    &:active,
+    &:focus {
+      box-shadow: 0 0 0 #eee;
+    }
   }
 }

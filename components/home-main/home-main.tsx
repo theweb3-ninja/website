@@ -30,7 +30,7 @@ const HomeMain = () => {
         <PopupButton
           url="https://calendly.com/theweb3-ninja"
           rootElement={document.getElementById('root-calendly') as HTMLElement}
-          text="Click here to schedule a meeting!!!"
+          text="Click here to schedule a meeting"
           className={styles.calendlyButton}
         />
       </div>
