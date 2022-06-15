@@ -21,7 +21,7 @@ const HomeMain = () => {
       </h1>
 
       <div className={styles.description}>
-        <span>Your one stop ninja for your </span>
+        <span>Your one-stop ninja for your </span>
         <TextHomeAnimated />
         <span> frontend integration.</span>
       </div>
