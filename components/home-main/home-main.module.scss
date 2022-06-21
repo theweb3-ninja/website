@@ -156,4 +156,9 @@
 .disclaimer {
   font-size: 0.85rem;
   text-align: center;
+  margin: 1rem 0.5rem;
+
+  a {
+    text-decoration: underline;
+  }
 }
