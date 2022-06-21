@@ -35,6 +35,8 @@ const HomeMain = () => {
         />
       </div>
 
+      <div className={styles.disclaimer}>The Web3 Ninja (PTY) Ltd, is a registered company in South Africa.</div>
+
       {/*
           <div className={styles.grid}>
             <a href="https://nextjs.org/docs" className={styles.card}>

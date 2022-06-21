@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import TextTransition, { presets } from 'react-text-transition';
 
-const TEXTS = ['Web3', 'Blockchain', 'Smart Contract', 'Custom'];
+const TEXTS = ['Web3', 'Blockchain', 'DeFi', 'Smart Contract', 'Custom'];
 
 const TextHomeAnimated = () => {
   const [index, setIndex] = useState(0);

@@ -133,9 +133,9 @@
     background-color: $palette2;
     color: #fff;
     border: 3px solid $palette4;
-    padding: 1rem 3rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 999rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 1.5rem;
@@ -151,4 +151,9 @@
       box-shadow: 0 0 0 #eee;
     }
   }
+}
+
+.disclaimer {
+  font-size: 0.85rem;
+  text-align: center;
 }
