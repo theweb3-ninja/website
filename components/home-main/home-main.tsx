@@ -37,7 +37,7 @@ const HomeMain = () => {
 
       <div className={styles.disclaimer}>The Web3 Ninja, is a registered company in South Africa under the name Rocco Consultancy (PTY) Ltd.</div>
       
-      <div className={styles.disclaimer}>Backed by <a href="https://rocco.me" target="_blank" rel="noreferrer">Rocco</a> ninja.</div>
+      <div className={styles.disclaimer}>Backed by <a href="https://www.linkedin.com/in/roccorusso/" target="_blank" rel="noreferrer">Rocco</a> ninja.</div>
 
       {/*
           <div className={styles.grid}>
