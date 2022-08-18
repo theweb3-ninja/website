@@ -6,7 +6,7 @@ import styles from './home-main.module.scss';
 const HomeMain = () => {
   return (
     <main className={styles.main}>
-      <div>
+      <div className={styles.floating}>
         <Image
           src="/android-chrome-192x192.png"
           alt="android-chrome-192x192.png"
