@@ -1,1 +1,1 @@
-export { default } from './gradient-sparkle';
+export { default } from "./gradient-sparkle";

@@ -3,7 +3,10 @@ import Head from "next/head";
 const MetaHeader = () => {
   return (
     <Head>
-      <title>The Web3 Ninja | theweb3.ninja</title>
+      <title>
+        The Web3 Ninja | Your development partner for Blockchain and DeFi
+        integration.
+      </title>
       <meta name="description" content="The Web3 Ninja company website" />
       <link rel="shortcut icon" href="/favicon.ico" />
       <link rel="apple-touch-icon" href="/apple-touch-icon.png" />

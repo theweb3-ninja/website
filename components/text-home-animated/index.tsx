@@ -1,1 +1,1 @@
-export { default } from './text-home-animated';
+export { default } from "./text-home-animated";

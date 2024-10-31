@@ -1,15 +1,15 @@
-import "../styles/fonts.scss";
-import "../styles/globals.scss";
-import type { AppProps } from "next/app";
-import Script from "next/script";
-import * as gtag from "../lib/gtag";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import type { AppProps } from "next/app";
+import Script from "next/script";
+import { isProductionEnv } from "../config";
+import * as gtag from "../lib/gtag";
+import "../styles/fonts.scss";
+import "../styles/globals.scss";
+
 config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const isProductionEnv = process.env.NODE_ENV !== "test";
-
   return (
     <>
       <Component {...pageProps} />
