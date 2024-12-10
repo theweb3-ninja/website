@@ -1,0 +1,2 @@
+User-agent: * #Applies to all robots
+Disallow: /admin/ # Don't allow access to the /admin/ directory.
